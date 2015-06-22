@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.Composition;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,12 +16,11 @@ using System.Windows.Shapes;
 namespace J.windows.Features
 {
     /// <summary>
-    /// Interaction logic for Shell.xaml
+    /// Interaction logic for WorkAreaContainer.xaml
     /// </summary>
-    [Export]
-    public partial class Shell : Window
+    public partial class WorkAreaContainer : UserControl
     {
-        public Shell()
+        public WorkAreaContainer()
         {
             InitializeComponent();
         }

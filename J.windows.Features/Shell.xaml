@@ -7,7 +7,7 @@
         xmlns:regions="http://www.codeplex.com/CompositeWPF"
         mc:Ignorable="d"
         Title="Shell" Height="350" Width="525">
-    <Grid>
-        <ItemsControl Name="MainRegion" regions:RegionManager.RegionName="MainRegion"/>
-    </Grid>
+    <StackPanel>
+        <local:WorkAreaContainer/>
+    </StackPanel>
 </Window>

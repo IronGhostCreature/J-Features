@@ -1,0 +1,42 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:care="clr-namespace:StylePack.UI.Images.Care" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <care:CareLabelCollection x:Key="CareLabels">
+    <care:CareLabel Category="Washing" Code="Normal_95" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Normal_95.png" Name="Normal Process" Temperature="95" Zone="EU" />
+    <care:CareLabel Category="Washing" Code="Normal_60" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Normal_60.png" Name="Normal Process" Temperature="60" Zone="EU" />
+    <care:CareLabel Category="Washing" Code="Mild_61" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Mild_60.png" Name="Mild Process" Temperature="60" Zone="EU" />
+    <care:CareLabel Category="Washing" Code="Normal_41" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Normal_40.png" Name="Normal Process" Temperature="40" Zone="EU" />
+    <care:CareLabel Category="Washing" Code="Mild_41" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Mild_40.png" Name="Mild Process" Temperature="40" Zone="EU" />
+    <care:CareLabel Category="Washing" Code="VMild_41" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_VMild_40.png" Name="Very Mild Process" Temperature="40" Zone="EU" />
+    <care:CareLabel Category="Washing" Code="Normal_31" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Normal_30.png" Name="Normal Process" Temperature="30" Zone="EU" />
+    <care:CareLabel Category="Washing" Code="Mild_31" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Mild_30.png" Name="Mild Process" Temperature="30" Zone="EU" />
+    <care:CareLabel Category="Washing" Code="Vmild_31" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Vmild_30.png" Name="Very Mild Process" Temperature="30" Zone="EU" />
+    <care:CareLabel Category="Washing" Code="HandWash" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_HandWash.png" Name="Wash By Hand" Temperature="40" Zone="EU" />
+    <care:CareLabel Category="Washing" Code="NoWash" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_NoWash.png" Name="Do Not Wash" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Bleaching" Code="AnyBleach" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_AnyBleach.png" Name="Any bleaching agent allowed" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Bleaching" Code="RestrictedBleach" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_RestrictedBleach.png" Name="Only oxygen/non-chlorine bleach allowed" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Bleaching" Code="NoBleach" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_NoBleach.png" Name="Do not bleach" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Drying" Code="Tumble_Normal" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Tumble_Normal.png" Name="Tumble drying possible at normal temperature" Temperature="80" Zone="EU" />
+    <care:CareLabel Category="Drying" Code="Tumble_Low" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Tumble_Low.png" Name="Tumble drying possible at lower temperature" Temperature="60" Zone="EU" />
+    <care:CareLabel Category="Drying" Code="Tumble_None" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Tumble_None.png" Name="Do not tumble dry" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Drying" Code="Dry_Line" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Dry_Line.png" Name="Line drying" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Drying" Code="Dry_DripLine" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Dry_DripLine.png" Name="Drip line drying" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Drying" Code="Dry_Flat" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Dry_Flat.png" Name="Flat drying" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Drying" Code="Dry_DripFlat" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Dry_DripFlat.png" Name="Drip flat drying" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Drying" Code="Dry_LineShade" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Dry_LineShade.png" Name="Drip line drying" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Drying" Code="Dry_DripLineShade" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Dry_DripLineShade.png" Name="Drip line drying in the shade" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Drying" Code="Dry_FlatShade" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Dry_FlatShade.png" Name="Flat drying in the shade" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Drying" Code="Dry_DripFlatShade" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Dry_DripFlatShade.png" Name="Drip flat drying in the shade" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Ironing" Code="Iron_Max" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Iron_Max.png" Name="Iron at maximum sole plate temperature" Temperature="200" Zone="EU" />
+    <care:CareLabel Category="Ironing" Code="Iron_Medium" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Iron_Medium.png" Name="Iron at medium sole plate temperature" Temperature="150" Zone="EU" />
+    <care:CareLabel Category="Ironing" Code="Iron_Low" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Iron_Low.png" Name="Iron at lower sole plate temerature. Steam may cause damage." Temperature="110" Zone="EU" />
+    <care:CareLabel Category="Ironing" Code="Iron_None" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_Iron_None.png" Name="Do not iron" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Professional Textile Care" Code="DryClean_NormalP" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_DryClean_NormalP.png" Name="Professional dry cleaning, normal process" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Professional Textile Care" Code="DryClean_MildP" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_DryClean_MildP.png" Name="Professional dry cleaning, mild process" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Professional Textile Care" Code="DryClean_NormalF" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_DryClean_NormalF.png" Name="Professional dry cleaning, normal process" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Professional Textile Care" Code="DryClean_MildF" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_DryClean_MildF.png" Name="Professional dry cleaning, mild process" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Professional Textile Care" Code="DryClean_None" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_DryClean_None.png" Name="Do not dry clean" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Professional Textile Care" Code="WetClean_Normal" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_WetClean_Normal.png" Name="Professional wet cleaning, normal process" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Professional Textile Care" Code="WetClean_Mild" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_WetClean_Mild.png" Name="Professional wet cleaning, mild process" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Professional Textile Care" Code="WetClean_VMild" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_WetClean_VMild.png" Name="Professional wet cleaning, very mild process" Temperature="" Zone="EU" />
+    <care:CareLabel Category="Professional Textile Care" Code="WetClean_None" ImageName="pack://application:,,,/StylePackUI;component/Images/Care/Care_EU_WetClean_None.png" Name="Do not wet clean" Temperature="" Zone="EU" />
+  </care:CareLabelCollection>
+</ResourceDictionary>
