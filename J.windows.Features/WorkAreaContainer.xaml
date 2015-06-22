@@ -5,17 +5,32 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:J.windows.Features"
              xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:regions="http://www.codeplex.com/CompositeWPF"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-    
-        <telerik:RadTabControl VerticalAlignment="Top"
-				DisplayMemberPath="Content" DropDownDisplayMode="Visible" ScrollMode="Viewport" 
-                               BorderThickness="0"
-                               TabStripPlacement="Left"
-                               >
-            <telerik:RadTabItem DropDownContent="A - D" Header="A - D" >    
-                
-                </telerik:RadTabItem>
-            </telerik:RadTabControl>
-    
+
+    <telerik:RadTabControl regions:RegionManager.RegionName="TabControlRegion" TabOrientation="Vertical" TabStripPlacement="Left">
+        <telerik:RadTabControl.ItemContainerStyle>
+            <Style TargetType="telerik:RadTabItem">
+                <Setter Property="HeaderTemplate">
+                    <Setter.Value>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <ContentControl Content="{Binding Title}" />
+                                <Button Grid.Column="1" Content="x" Width="16" Height="20"  
+                                            HorizontalAlignment="Center" VerticalAlignment="Center"
+                                            Command="{Binding CloseCommand}"/>
+                            </Grid>
+                        </DataTemplate>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}" />
+            </Style>
+        </telerik:RadTabControl.ItemContainerStyle>
+    </telerik:RadTabControl>
+
 </UserControl>

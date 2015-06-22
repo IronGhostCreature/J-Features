@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 using System.Windows;
+using CriticalPath;
 using Microsoft.Practices.Prism;
 using Microsoft.Practices.Prism.Modularity;
 using Microsoft.Practices.Prism.MefExtensions;
@@ -26,12 +27,14 @@ namespace J.windows.Features
 
         protected override IModuleCatalog CreateModuleCatalog()
         {
-           return new ConfigurationModuleCatalog();
+            ModuleCatalog catalog = new ModuleCatalog();
+            return catalog;
         }
 
         protected override void ConfigureAggregateCatalog()
         {
             this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(Bootstrapper).Assembly));
+            this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(Module).Assembly));
         }
 
       protected override RegionAdapterMappings ConfigureRegionAdapterMappings()
