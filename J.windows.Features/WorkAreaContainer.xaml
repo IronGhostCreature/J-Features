@@ -9,7 +9,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
 
-    <telerik:RadTabControl regions:RegionManager.RegionName="TabControlRegion" TabOrientation="Vertical" TabStripPlacement="Left">
+    <telerik:RadTabControl regions:RegionManager.RegionName="TabControlRegion" TabOrientation="Vertical" TabStripPlacement="Left" SelectedIndex="0">
         <telerik:RadTabControl.ItemContainerStyle>
             <Style TargetType="telerik:RadTabItem">
                 <Setter Property="HeaderTemplate">

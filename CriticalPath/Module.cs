@@ -23,6 +23,7 @@ namespace CriticalPath
         {
             var view = (CriticalPathView)ServiceLocator.Current.GetInstance(typeof(CriticalPath.Views.CriticalPathView), "CriticalPath.Views.CriticalPathView");
             this._regionManager.Regions[RegionNames.TabControlRegion].Add(view, "CriticalPathView");
+            
         }
     }
 
