@@ -3,8 +3,8 @@ using System.ComponentModel.Composition.Hosting;
 using System.Windows;
 using CriticalPath;
 using Microsoft.Practices.Prism;
-using Microsoft.Practices.Prism.Modularity;
 using Microsoft.Practices.Prism.MefExtensions;
+using Microsoft.Practices.Prism.Modularity;
 using Microsoft.Practices.Prism.Regions;
 using Microsoft.Practices.ServiceLocation;
 using Telerik.Windows.Controls;
@@ -23,6 +23,12 @@ namespace J.windows.Features
             base.InitializeShell();
             Application.Current.MainWindow = (Window)this.Shell;
             Application.Current.MainWindow.Show();
+        }
+
+        protected override void ConfigureContainer()
+        {
+            base.ConfigureContainer();
+            Container.SatisfyImportsOnce(typeof(ModuleManager));
         }
 
         protected override IModuleCatalog CreateModuleCatalog()
